@@ -54,7 +54,7 @@ RUN pip --no-cache-dir install \
 RUN ln -s /usr/bin/python3 /usr/bin/python#
 
 # Set notebook config.
-COPY jupyter_config.py /root/.jupyter/
+COPY jupyter_notebook_config.py /root/.jupyter/
 
 # IPython
 EXPOSE 8888
